@@ -13,19 +13,19 @@ function App() {
 
   const questionAnswer = [
     {
-      question: "",
-      answer: "1",
+      question: "Who is the best football player in the galaxy?",
+      answer: "Cristiano Ronaldo",
     },
     {
-      question: "soru2",
-      answer: "2",
+      question: "Who is the best actor in the galaxy?",
+      answer: "Michael Emerson",
     },
     {
-      question: "soru3",
-      answer: "3",
+      question: "Who wrote The Lord of the Rings?",
+      answer: "Tolkien",
     },
     {
-      question: "soru4",
+      question: "2+2",
       answer: "4",
     },
   ];
@@ -72,7 +72,7 @@ function App() {
         }
       });
     } else {
-      alert("bos");
+      alert("you cannot send blank text");
     }
   };
   console.log("prevanswer", prevAnswer);
