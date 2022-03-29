@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.input {
+  margin-bottom: 20px;
+}
+.butonWrapper {
+  display: flex;
+  flex-direction: row;
+}
